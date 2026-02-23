@@ -1,35 +1,42 @@
-<!-- This file is configured by running /setup. Run /setup to get started. -->
-<!-- Claude will also update this file as you mention preferences during conversations. -->
-
 # User Preferences
 
-This section outlines specific information about the user and how they use Anki so you can tailor their experience for them. You should be proactive in updating this section throughout conversations with the user if relevant information or workflows come up that would help you manage the users anki deck better.
+<!-- Configured by /setup. Claude will update this as you mention preferences. -->
 
 ## Language
 
-- **Target language:** (not configured - run /setup)
-- **Native language:** (not configured)
-- **Dialect/variant:** (none)
+- **Target language:** Vietnamese
+- **Native language:** English
+- **Dialect/variant:** Northern
 
 ## Anki Configuration
 
-- **Main deck name:** (not configured)
-- **Card model name:** (not configured)
+- **Main deck name:** Vietnamese
+- **Card model name:** Language Learning
 - **Model fields:**
-  - Word field: (not configured)
-  - Translation field: (not configured)
-  - Example (target) field: (not configured)
-  - Example (native) field: (not configured)
-  - Audio word field: (not configured)
-  - Audio sentence field: (not configured)
+  - Word field: Learning Language
+  - Translation field: Native language
+  - Example (target) field: Example (Learning)
+  - Example (native) field: Example (native)
+  - Audio word field: Audio Word
+  - Audio sentence field: Audio Sentence
 
 ## Audio Configuration
 
-- **Audio enabled:** false
-- **Audio provider:** (not configured)
-- **Provider settings:** (not configured)
+- **Audio enabled:** true
+- **Audio provider:** ElevenLabs
+- **Provider settings:**
+  - Voice: Mai Thảo (ID: 558B1EcdabtcSdleer40)
+  - Language code: vi
+  - Speed: 0.9
+  - Stability: 0.75
+  - Output directory: ./audio
 
 ## Card Creation Preferences
 
 - **Default tags:** (none)
-- **Best practices:** (none configured)
+- **Best practices:**
+  - Always confirm with the user before creating or modifying cards
+  - Always include example sentences
+  - Always include audio for words and sentences
+  - Highlight/bold the vocabulary word in example sentences
+  - When constructing example sentences, prefer using vocabulary from existing cards in the deck rather than introducing new unknown words
