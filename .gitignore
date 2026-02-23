@@ -1,0 +1,53 @@
+# User-specific local settings
+.claude/settings.local.json
+
+# Environment variables
+.env
+.env.local
+
+# Audio files
+audio/*.mp3
+audio/output_*
+
+# Generated vocab files
+vocab/*.json
+
+# Temporary files
+scripts/tmp/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# OS
+Thumbs.db

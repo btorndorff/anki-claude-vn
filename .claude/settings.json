@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s localhost:8765 *)",
+      "Bash(curl localhost:8765 *)",
+      "Bash(base64 *)",
+      "Bash(rm audio/*.mp3)",
+      "Bash(rm vocab/*.json)",
+      "Bash(mkdir -p audio)",
+      "Bash(mv *)"
+    ]
+  },
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/current-card.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
