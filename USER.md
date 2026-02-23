@@ -29,7 +29,7 @@
   - Language code: vi
   - Speed: 0.9
   - Stability: 0.75
-  - Output directory: ./audio
+  - Output directory: /Users/benorndorff/Desktop/PROJECTS/anki-claude-vn/audio
 
 ## Card Creation Preferences
 
